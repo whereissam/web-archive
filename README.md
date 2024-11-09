@@ -155,5 +155,32 @@ The project you specified does not exist: "web-archive". Would you like to creat
 Download the latest extension.zip from the release page, unzip it, and install it to the browser.  
 After the first installation, you need to enter the API address and key. The API address is the service address, and the key is the password of the first user (administrator).  
 
+Download the latest extension.zip from the release page, unzip it, and install it to the browser.  
+After the first installation, you need to enter the API address and key. The API address is the service address, and the key is the password of the first user (administrator).  
+
+1. Install the Browser Extension
+   - Go to the releases page
+   - Download the latest extension.zip
+   - Unzip the file
+   - In Chrome/Edge, go to chrome://extensions/
+   - Enable "Developer mode"
+   - Click "Load unpacked" and select the unzipped extension folder
+2. Configure the Extension
+   - After installation, you'll need to configure:
+     - API Address: Use the URL from your deployment (like https://web-archive-xxxx.pages.dev)
+     - Key: Set this as your desired admin password (this will be the password for the first user)
+3. Access the Web Interface
+   - Go to your deployed URL (e.g., https://web-archive-xxxx.pages.dev)
+   - Log in using the key you set as the password
+   - The showcase can be accessed at /#/showcase/folder
+4. Using the Archive
+   - Once set up, you can use the browser extension to archive pages
+   - In the web interface, you can:
+   - Organize archived pages into folders
+     - Mark pages for showcase display
+     - Access your archived content
+     - Share archived pages
+
+
 In the folder page, you can set whether a page is displayed in the showcase.  
 Showcase address: /#/showcase/folder
